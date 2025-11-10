@@ -14,28 +14,27 @@
 function miInformacion() {
   // TODO: Declara las variables nombre, edad y carrera
   // Ejemplo: const nombre = "Juan";
-  
+  //Ejercicio 1 terminado
   const nombre = "Marcelo Medina";
   const edad = 67;
   const carrera = "TSW";
-  
+  //Modificacion de prueb
   return { nombre, edad, carrera };
 }
 
 /**
- * Ejercicio 1.2: Operaciones aritmÃ©ticas bÃ¡sicas (3 puntos)
- * @param {number} a - Primer nÃºmero
- * @param {number} b - Segundo nÃºmero
- * @returns {Object} - Objeto con suma, resta, multiplicaciÃ³n y divisiÃ³n
+ * Ejercicio 1.2: Operaciones aritméticas básicas (3 puntos)
+ * @param {number} a - Primer número
+ * @param {number} b - Segundo número
+ * @returns {Object} - Objeto con suma, resta, multiplicación y división
  */
 function operacionesBasicas(a, b) {
-  // TODO: Calcula suma, resta, multiplicaciÃ³n y divisiÃ³n de a y b
-  
-  const suma = 0;
-  const resta = 0;
-  const multiplicacion = 0;
-  const division = 0;
-  
+  // Calcula suma, resta, multiplicación y división de a y b
+  const suma = a + b;
+  const resta = a - b;
+  const multiplicacion = a * b;
+  const division = b !== 0 ? a / b : null; // evita división entre cero
+
   return { suma, resta, multiplicacion, division };
 }
 
