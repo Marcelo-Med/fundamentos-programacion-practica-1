@@ -285,12 +285,15 @@ function filtrarMayores(numeros, limite) {
  * Ejemplo: invertirArray([1, 2, 3, 4]) debe retornar [4, 3, 2, 1]
  */
 function invertirArray(arr) {
-  // TODO: Invierte el orden de los elementos
-  // Pista: Puedes usar arr.reverse() o hacerlo manualmente
+  // Invierte el orden de los elementos manualmente
   const invertido = [];
+
+  for (let i = arr.length - 1; i >= 0; i--) {
+    invertido.push(arr[i]);
+  }
+
   return invertido;
 }
-
 // ============================================
 // SECCIÃ“N 5: ARRAYS BIDIMENSIONALES (30 puntos)
 // PreparaciÃ³n para matrices
