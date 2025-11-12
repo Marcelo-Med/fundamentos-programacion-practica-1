@@ -94,15 +94,21 @@ function evaluarNota(nota) {
 }
 
 /**
- * Ejercicio 2.3: El mayor de tres nÃºmeros (4 puntos)
- * @param {number} a - Primer nÃºmero
- * @param {number} b - Segundo nÃºmero
- * @param {number} c - Tercer nÃºmero
- * @returns {number} - El nÃºmero mayor
+ * Ejercicio 2.3: El mayor de tres números (4 puntos)
+ * @param {number} a - Primer número
+ * @param {number} b - Segundo número
+ * @param {number} c - Tercer número
+ * @returns {number} - El número mayor
  */
 function mayorDeTres(a, b, c) {
-  // TODO: Encuentra y retorna el mayor de los tres nÃºmeros
-  return 0;
+  // Encuentra y retorna el mayor de los tres números
+  if (a >= b && a >= c) {
+    return a;
+  } else if (b >= a && b >= c) {
+    return b;
+  } else {
+    return c;
+  }
 }
 
 /**
