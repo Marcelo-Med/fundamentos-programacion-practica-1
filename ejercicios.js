@@ -50,15 +50,15 @@ function areaRectangulo(base, altura) {
 }
 
 /**
- * Ejercicio 1.4: ConversiÃ³n de temperatura (3 puntos)
+ * Ejercicio 1.4: Conversión de temperatura (3 puntos)
  * Convierte grados Celsius a Fahrenheit
- * FÃ³rmula: F = C * 9/5 + 32
+ * Fórmula: F = C * 9/5 + 32
  * @param {number} celsius - Temperatura en Celsius
  * @returns {number} - Temperatura en Fahrenheit
  */
 function celsiusAFahrenheit(celsius) {
-  // TODO: Implementa la conversiÃ³n
-  return 0;
+  // Implementa la conversión
+  return (celsius * 9 / 5) + 32;
 }
 
 // ============================================
