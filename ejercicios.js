@@ -66,14 +66,17 @@ function celsiusAFahrenheit(celsius) {
 // ============================================
 
 /**
- * Ejercicio 2.1: NÃºmero par o impar (3 puntos)
- * @param {number} numero - NÃºmero a evaluar
+ * Ejercicio 2.1: Número par o impar (3 puntos)
+ * @param {number} numero - Número a evaluar
  * @returns {string} - "par" o "impar"
  */
 function parOImpar(numero) {
-  // TODO: Usa el operador % (mÃ³dulo) para determinar si es par o impar
-  // Pista: Un nÃºmero es par si numero % 2 === 0
-  return "";
+  // Usa el operador % (módulo) para determinar si es par o impar
+  if (numero % 2 === 0) {
+    return "par";
+  } else {
+    return "impar";
+  }
 }
 
 /**
