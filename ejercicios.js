@@ -152,13 +152,19 @@ function factorial(n) {
 }
 
 /**
- * Ejercicio 3.2: Suma de nÃºmeros del 1 al n (4 puntos)
- * @param {number} n - NÃºmero lÃ­mite
+ * Ejercicio 3.2: Suma de números del 1 al n (4 puntos)
+ * @param {number} n - Número límite
  * @returns {number} - Suma de 1 + 2 + 3 + ... + n
  */
 function sumaHastaN(n) {
-  // TODO: Usa un bucle para sumar todos los nÃºmeros desde 1 hasta n
-  return 0;
+  let suma = 0; // Variable acumuladora
+
+  // Recorre los números del 1 hasta n
+  for (let i = 1; i <= n; i++) {
+    suma += i; // Acumula cada número
+  }
+
+  return suma; // Devuelve el total
 }
 
 /**
