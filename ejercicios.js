@@ -80,13 +80,17 @@ function parOImpar(numero) {
 }
 
 /**
- * Ejercicio 2.2: CalificaciÃ³n (4 puntos)
+ * Ejercicio 2.2: Calificación (4 puntos)
  * @param {number} nota - Nota del 0 al 100
  * @returns {string} - "Aprobado" si nota >= 60, "Reprobado" si no
  */
 function evaluarNota(nota) {
-  // TODO: Implementa la lÃ³gica con if/else
-  return "";
+  // Implementa la lógica con if/else
+  if (nota >= 60) {
+    return "Aprobado";
+  } else {
+    return "Reprobado";
+  }
 }
 
 /**
